@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ margin:0;padding:0;
+           box-sizing:border-box;
+        }
+        #wrapper{
+            height:100vh;
+            overflow-x:hidden;
+            overflow-y: auto; perspective:0px;
+        }
+        .container{
+            position:relative;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100%;
+            transform-style:preserve-3d;
+            z-index:-1;
+        }
+        .background{
+            transform:translateZ(-1.5px) scale(2.9);
+        }
+        .foreground{
+            transform:translateZ(-1px) scale(2.4);
+        }
+
+        .background,.foreground{
+            position:absolute; height:100%; width:100%;
+            z-index:-1; object-fit:cover;
+        }
+        h1{
+        position:absolute; 
+        color:white;
+        font-size:150px;
+        top:8rem; 
+        }
+        .first{
+            font-size: 90px;
+          /*  background-color:rgba(45, 45, 45, 45); */
+            color:white;
+        }
+        .first1{
+            padding:100px;
+            justify-content:center;
+            align-items:center;
+            background-color:rgba(45, 45, 45, 45);
+            color:white;
+            top:40px;
+            padding-left:160px;
+            padding-right:160px;
+            line-height: 2.8rem;
+            font-size:25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+       
+          .header{
+            justify-content:center;
+            align-items:center;
+            background-color:rgba(45, 45, 45, 45);
+            color:white;
+            background-image:url(https://cdn.shopify.com/s/files/1/0276/0199/3803/files/Canfield-ONE.2-Super-Enduro-free-lunch-trail-drop.jpg?v=1598484367);
+            height:500px; width:100%; background-attachment:fixed;
+           }
+       .header2{
+        justify-content:center;
+            align-items:center;
+            background-color:rgba(45, 45, 45, 45);
+            color:white;
+            background-image:url(https://cdn1.matadornetwork.com/blogs/1/2022/05/hang-gliding-vs-paragliding.jpg);
+            height:500px; width:100%; background-attachment:fixed;
+      
+       }
+       .header3{
+        justify-content:center;
+            align-items:center;
+            background-color:rgba(45, 45, 45, 45);
+            color:white;
+            background-image:url(https://images.alphacoders.com/100/thumb-1920-1003340.jpg);
+            height:500px; width:100%; background-attachment:fixed;
+
+       }
+
+        .title{
+            font-size:70px;
+            margin-left:730px;
+            margin-right:520px;
+            color:black;
+            
+            transform:translate(-7rem,12rem); 
+            background-color:white;
+        }
+        .text{
+            top:100px;
+            background-color:rgba(45, 45, 45, 45);
+            padding:100px;
+            justify-content:center;
+            align-items:center;
+            background-color:rgba(45, 45, 45, 45);
+            color:white;
+            top:40px;
+            padding-left:160px;
+            padding-right:160px;
+            line-height: 2.8rem;
+            font-size:25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+        }
+        .title2{
+       
+            font-size:70px;
+            margin-left:630px;
+            margin-right:360px;
+            color:black;
+            transform:translate(-7rem,12rem); 
+            background-color:white;
+        }
+
+        .title3{
+            font-size:70px;
+            margin-left:730px;
+            margin-right:470px;
+            color:black;
+            
+            transform:translate(-7rem,12rem); 
+            background-color:white;
+        }
+      
+
+    
+    </style>
+</head>
+<body>
+     <div id="wrapper">
+    <div class="container">
+       <img src="https://th.bing.com/th/id/R.1fef8e84693ccce33875729ef9ec8140?rik=4LFgCNb4x9ZWYQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBLRG4Mn.jpg&ehk=7vDh%2fSsZpeVqy71VIjBinKwgSw6kouYt4B0Ecf0T0Og%3d&risl=&pid=ImgRaw&r=0" class="background">
+      <img  src="https://codehelp-parallax-website.netlify.app/assets/foreground.png" class="foreground">
+      <h1>ADVENTURE</h1>
+    </div>
+    
+
+    <section class="first1">
+     
+        <h2 class="first">Adventure Time !</h2>
+        <br> <br>
+        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui necessitatibus commodi alias? Veritatis, 
+            eligendi nisi. Amet exercitationem, recusandae dolore corrupti laborum aperiam repellendus natus voluptatem quam atque aliquam beatae. 
+            Odit deserunt nisi optio eveniet? Aliquam possimus molestiae, ullam illum accusamus autem accusantium! Voluptate laboriosam eum saepe ex veritatis est?
+             Numquam eaque autem labore provident dolorum, velit omnis mollitia eos adipisci!
+            <br><br>
+            
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, itaque hic tempore rem eveniet sed repudiandae molestiae magnam aut quod consequatur, harum, 
+        totam beatae fugiat ipsam? Explicabo, blanditiis quod similique fugiat fugit ea expedita deleniti doloribus, delectus perferendis, tempore amet maiores 
+        libero sapiente voluptatem reprehenderit? Illum alias commodi cupiditate corporis mollitia ab quaerat, ipsum est excepturi vitae a sunt optio.
+            </p>
+        </section>
+      <div class="header">
+        <h2 class="title">BIKING</h2> <br> <br>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui necessitatibus commodi alias? Veritatis, eligendi nisi. Amet exercitationem, recusandae dolore corrupti laborum aperiam repellendus natus voluptatem quam atque aliquam beatae. Odit deserunt nisi optio eveniet? Aliquam possimus molestiae, ullam illum accusamus autem accusantium! Voluptate laboriosam eum saepe ex veritatis est? Numquam eaque autem labore provident dolorum, velit omnis mollitia eos adipisci!
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, itaque hic tempore rem eveniet sed repudiandae molestiae magnam aut quod consequatur, harum, totam beatae fugiat ipsam? Explicabo, blanditiis quod similique fugiat fugit ea expedita deleniti doloribus, delectus perferendis, tempore amet maiores libero sapiente voluptatem reprehenderit? Illum alias commodi cupiditate corporis mollitia ab quaerat, ipsum est excepturi vitae a sunt optio.</p>
+    
+      <div class="header2">
+        <h2 class="title2">PARA GLIDING</h2> <br> <br>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui necessitatibus commodi alias? Veritatis, eligendi nisi. Amet exercitationem, recusandae dolore corrupti laborum aperiam repellendus natus voluptatem quam atque aliquam beatae. Odit deserunt nisi optio eveniet? Aliquam possimus molestiae, ullam illum accusamus autem accusantium! Voluptate laboriosam eum saepe ex veritatis est? Numquam eaque autem labore provident dolorum, velit omnis mollitia eos adipisci!
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, itaque hic tempore rem eveniet sed repudiandae molestiae magnam aut quod consequatur, harum, totam beatae fugiat ipsam? Explicabo, blanditiis quod similique fugiat fugit ea expedita deleniti doloribus, delectus perferendis, tempore amet maiores libero sapiente voluptatem reprehenderit? Illum alias commodi cupiditate corporis mollitia ab quaerat, ipsum est excepturi vitae a sunt optio.</p>
+         
+      <div class="header3">
+        <h2 class="title3">SURFING</h2> <br> <br>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui necessitatibus commodi alias? Veritatis, eligendi nisi. Amet exercitationem, recusandae dolore corrupti laborum aperiam repellendus natus voluptatem quam atque aliquam beatae. Odit deserunt nisi optio eveniet? Aliquam possimus molestiae, ullam illum accusamus autem accusantium! Voluptate laboriosam eum saepe ex veritatis est? Numquam eaque autem labore provident dolorum, velit omnis mollitia eos adipisci!
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, itaque hic tempore rem eveniet sed repudiandae molestiae magnam aut quod consequatur, harum, totam beatae fugiat ipsam? Explicabo, blanditiis quod similique fugiat fugit ea expedita deleniti doloribus, delectus perferendis, tempore amet maiores libero sapiente voluptatem reprehenderit? Illum alias commodi cupiditate corporis mollitia ab quaerat, ipsum est excepturi vitae a sunt optio.</p>
+    
+    
+    </div>
+</body>
+</html>
